@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Shop</title>
+    <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+
+
+    <nav class="navbar bg-body-tertiary container-fluid" style="background-color: #e3f2fd;">
+        <div class="container-fluid">
+            <h1> <a class="navbar-brand">SHOP UP</a></h1>
+        </div>
+    </nav>
+
+    <div class="container p-5">
+        <div class=" products row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+            <!-- 1st item -->
+            <div class="col">
+                <div class="card h-40">
+                    <img src="images\earphones.jpg" class="card-img-top" height="300px" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title ">Wireless Earphone</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque eum ratione impedit non veniam deleniti facere cum voluptate. .</p>
+                        <hr>
+                        <span class="currency">BDT &#2547;</span>
+                        <span class="num" class="p-3">1234</span> <br>
+                        <button type="submit" class="btn btn-primary md m-3 ">Add To Cart</button>
+                    </div>
+                </div>
+            </div>   
+            
+            <!-- 2nd item -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images\Mens-Shirtpg.jpg" class="card-img-top" height="300px" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title ">Blue-White check Shirt</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque eum ratione impedit non veniam deleniti facere cum voluptate. .</p>
+                        <hr>
+                        <span class="currency">BDT &#2547;</span>
+                        <span class="num" class="p-3">999</span> <br>
+                        <button type="submit" class="addCart btn btn-primary md m-3">Add To Cart</button>
+                    </div>
+                </div>
+            </div>   
+
+
+            <!-- 3rd item -->
+
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images\handbag.jpg" class="card-img-top" height="300px" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title ">Bamboo Top Hand Bag</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque eum ratione impedit non veniam deleniti facere cum voluptate. .</p>
+                        <hr>
+                        <span class="currency">BDT &#2547;</span>
+                        <span class="num" class="p-3">2699</span> <br>
+                        <button type="submit" class="addCart btn btn-primary md m-3">Add To Cart</button>
+                    </div>
+                </div>
+            </div>
+     
+            
+            
+            <!-- 4th item -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images\tops.jpg" class="card-img-top" height="300px" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title ">Georgette Short Tops</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque eum ratione impedit non veniam deleniti facere cum voluptate. .</p>
+                        <hr>
+                        <span class="currency">BDT &#2547;</span>
+                        <span class="num" class="p-3">990</span> <br>
+                        <button type="submit" class="addCart btn btn-primary md m-3">Add To Cart</button>
+                    </div>
+                </div>
+            </div>   
+
+
+            <!-- 5hth item -->
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images\tv.jpg" class="card-img-top" height="300px" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title ">Xiaomi TV A2 55``</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque eum ratione impedit non veniam deleniti facere cum voluptate. .</p>
+                        <hr>
+                        <span class="currency">BDT &#2547;</span>
+                        <span class="num" class="p-3">58000</span> <br>
+                        <button type="submit" class="addCart btn btn-primary md m-3">Add To Cart</button>
+                    </div>
+                </div>
+            </div>   
+
+        </div>
+
+        <hr>
+
+   
+         <h1 class="text-center" style="color:darkred;">Shopping Cart</h1>
+       
+
+
+         <table  class="table table-hover" >
+            <thead>
+
+                <tr>
+                    <!-- <th scope="col" width="15%">#</th> -->
+                    <th scope="col">Product Name</th>
+                    <!-- <th scope="col">Quantity</th> -->
+                    <th scope="col" align="right">Price</th>
+                    <th scope="col">Remove</th>
+                </tr>      
+            </thead>
+
+            <tbody class="cartList">
+               
+            </tbody>
+        
+          </table>
+     
+
+        
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
